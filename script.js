@@ -37,8 +37,8 @@ window.onload = () => {
                 btnSubmit.onclick = () => {
                     let rightAnswer = questionObject[randomIndexes[currentIndex]].right_answer;
                     currentIndex++;
-                    clearInterval(countDownInterval); // Stop the timer
-                    countDown(15, questionCount); // Start the timer for the next question
+                    //clearInterval(countDownInterval); // Stop the timer
+                    //countDown(15, questionCount); // Start the timer for the next question
                     checkAnswer(rightAnswer, questionCount);
                     quizArea.innerHTML = ''; // Remove previous question
                     answerArea.innerHTML = ''; // Remove previous answers
@@ -139,22 +139,22 @@ window.onload = () => {
     }
 
     // Function for the countdown timer
-    function countDown(timer, countQuestion) {
-        if (currentIndex < countQuestion) {
-            let minutes, seconds;
-            countDownInterval = setInterval(() => {
-                minutes = parseInt(timer / 60);
-                seconds = parseInt(timer % 60);
-                minutes = minutes < 10 ? `0${minutes}` : minutes;
-                seconds = seconds < 10 ? `0${seconds}` : seconds;
-                countDownElement.innerHTML = `<span class="min">${minutes}</span> : <span class="sec">${seconds}</span>`;
-                if (--timer < 0) {
-                    clearInterval(countDownInterval); // Stop the timer
-                    btnSubmit.click(); // Automatically click the submit button when time is up
-                }
-            }, 1000);
-        }
-    }
+   // function countDown(timer, countQuestion) {
+        //if (currentIndex < countQuestion) {
+           // let minutes, seconds;
+          //  countDownInterval = setInterval(() => {
+          //      minutes = parseInt(timer / 60);
+          //      seconds = parseInt(timer % 60);
+         //       minutes = minutes < 10 ? `0${minutes}` : minutes;
+         //       seconds = seconds < 10 ? `0${seconds}` : seconds;
+         //       countDownElement.innerHTML = `<span class="min">${minutes}</span> : <span class="sec">${seconds}</span>`;
+         //       if (--timer < 0) {
+         //           clearInterval(countDownInterval); // Stop the timer
+         //           btnSubmit.click(); // Automatically click the submit button when time is up
+         //       }
+         //   }, 1000);
+     //   }
+  //  }
 
     // Function to generate random indexes for selecting questions
     function generateRandomIndexes(count) {
