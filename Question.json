@@ -51,12 +51,16 @@
         "question": "If we ever played overcooked again, would we win?",
         "answer-1": "We'd be cooked",
         "answer-2": "Hell yeah we would",
+        "answer-3": "Nah",
+        "answer-4": "I don't think so",
         "right_answer": "Hell yeah we would"
     },
     {
         "question": "Who is the most perfect girl in the world?",
         "answer-1": "Not writing another female's name",
         "answer-2": "Easy, you",
+        "answer-3": "I'm not falling for the trap",
+        "answer-4": "You're the only girl on my mind fr",
         "right_answer": "Easy, you"
     },
     {
