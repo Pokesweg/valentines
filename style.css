@@ -45,7 +45,7 @@
     --background-color-sub: #44027b78;
     --background-color-1: #11223379;
     --background-color-2: #ffffff55; 
-    --background-color-3: #69a7b1; 
+    --background-color-3: #ffbdfb; 
     --background-color-4: #bc0594; 
     --background-color-5: #123; 
     --background-color-6: #009688; 
@@ -144,7 +144,7 @@ body {
 
 }
 .quiz-app .btn-submit{
-    background-color: pink);
+    background-color: var(--background-color-3);
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -160,6 +160,7 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 
 .quiz-app .bullets{
     background-color: var(--background-color-sub);
