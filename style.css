@@ -144,7 +144,7 @@ body {
 
 }
 .quiz-app .btn-submit{
-    background-color: var(--background-color-3);
+    background-color: pink);
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -160,14 +160,6 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    border: 3px solid pink;
-  }
 
 .quiz-app .bullets{
     background-color: var(--background-color-sub);
