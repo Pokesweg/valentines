@@ -160,6 +160,15 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid pink;
+  }
+
 .quiz-app .bullets{
     background-color: var(--background-color-sub);
     padding: 20px;
