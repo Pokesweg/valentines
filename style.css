@@ -41,12 +41,12 @@
     --background-color-white: #f8f8f8; 
     --background-color-black: #333333; 
     --background-color-subscreen: #747d89bf; 
-    --background-color-main: #02617ba6;
-    --background-color-sub: #02617b78;
+    --background-color-main: #4d027ba6;
+    --background-color-sub: #44027b78;
     --background-color-1: #11223379;
     --background-color-2: #ffffff55; 
     --background-color-3: #69a7b1; 
-    --background-color-4: #054ebc; 
+    --background-color-4: #bc0594; 
     --background-color-5: #123; 
     --background-color-6: #009688; 
     --background-color-7: #ffffff8e;
@@ -54,9 +54,9 @@
 
     /* ظل المربعات */
     --box-shadow-1: 0 4px 8px #7342b8; 
-    --box-shadow-2: 2px 2px 12px #123; 
+    --box-shadow-2: 2px 2px 12px rgb(42, 17, 51); 
     --box-shadow-3: 2px 4px 8px #ffffff55; 
-    --box-shadow-4: 0 4px 8px #4c7daf; 
+    --box-shadow-4: 0 4px 8px #af4ca0; 
     --box-shadow-5: 0 4px 8px #a6d126;
     
 }
