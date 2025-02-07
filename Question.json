@@ -1,14 +1,6 @@
 [
     {
-        "question": "This quiz is to remind you of my love and to prove to you the facts. You ready?",
-        "answer-1": "Nope",
-        "answer-2": "Maybe",
-        "answer-3": "Hell yeah",
-        "answer-4": "I'd rather watch Transformers",
-        "right_answer": "Hell yeah"
-    },
-    {
-        "question": "Starting with an easy one, how much do you think I love you?",
+        "question": "How much do you think I love you?",
         "answer-1": "Only a little",
         "answer-2": "Could be more",
         "answer-3": "Idk",
